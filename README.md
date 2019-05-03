@@ -24,12 +24,12 @@ Adds a new maximum range security building to the game:
  
 Needs ~11 Researches from scratch Crash Landing<br>
 
-&lt;b&gt;Compatibility&lt;/b&gt;
+<b>Compatibility</b>
  - Mechanoid Power Source
   (Will need a Power Cell on build)
  - [XND] Turret Extensions
 
-&lt;i&gt;Rips apart everything which comes close to your fortress.&lt;/i&gt;
+<em>Rips apart everything which comes close to your fortress.</em>
 
 I'm still balancing this out. Let me know if its fine
 
