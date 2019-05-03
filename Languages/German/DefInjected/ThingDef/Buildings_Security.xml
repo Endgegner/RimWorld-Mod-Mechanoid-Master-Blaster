@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MPC_MechanoidBlasterTurret.label>Mechanoid Blaster</MPC_MechanoidBlasterTurret.label>
+  <MPC_MechanoidBlasterTurret.description>Ein Geschützturm, der automaitsch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret.description>
+  <MPC_MechanoidBlasterTurret_Blueprint.label>Mechanoid Blaster (Entwurf)</MPC_MechanoidBlasterTurret_Blueprint.label>
+  <MPC_MechanoidBlasterTurret_Blueprint_Install.label>Mechanoid Blaster (Entwurf)</MPC_MechanoidBlasterTurret_Blueprint_Install.label>
+  <MPC_MechanoidBlasterTurret_Frame.label>Mechanoid Blaster (wird gebaut)</MPC_MechanoidBlasterTurret_Frame.label>
+  <MPC_MechanoidBlasterTurret_Frame.description>Ein Geschützturm, der automaitsch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret_Frame.description>
+
+  <Bullet_MechanoidBlasterTurret.label>Nitro Laser</Bullet_MechanoidBlasterTurret.label>
+
+  <Gun_MechanoidBlasterTurret.label>Mechanoid Blaster</Gun_MechanoidBlasterTurret.label>
+  <Gun_MechanoidBlasterTurret.description>Ein sich auffaltendes Verteidigungssystem, welches primär für die stationäre Kriegskunst entwickelt wurde, um xenomporhe Insektoiden sowie Mechanoidschwärme zu bekämpfen. Man findet sie aufgrund der aufwendigen Herstellungskosten eher auf Planeten höherer Wichtigkeit wieder. Es wurden gleich 4 Blaster Kanonen mit großer Reichweite daran angebracht. Das zentrale Waffensystem befindet sich wohl geschützt in einem gepanzerten Bereich innerhalb des Geschützturmes. Beruht auf gefährlicher Mechanoid Technologie.</Gun_MechanoidBlasterTurret.description>
+
+</LanguageData>

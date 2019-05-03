@@ -1,39 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Mechanoid Turret</name>
+	<name>Mechanoid Master Blaster</name>
 	<author>Trunken</author>
 	<url></url>
   <supportedVersions>
     <li>1.0</li>
   </supportedVersions>
-	<description>Adds a new nasty -full defense- security building to the game:
+	<description>Adds a new full defense security building to the game:
 
-&lt;b&gt;&lt;color=#01DFD7&gt;The Mechanoid Turret&lt;/color&gt;&lt;/b&gt;
+&lt;b&gt;&lt;color=#01fc61&gt;The Mechanoid Turret&lt;/color&gt;&lt;/b&gt;
 
 &lt;b&gt;Properties&lt;/b&gt;
  - Supererior precision
- - Laser
+ - Laser Pew Pew
  - Slow reload
+ - Plated
  - 1x1
 
 &lt;b&gt;Requirements&lt;/b&gt;
  - Technology "Mechanoid power systems"
    (last dependency: "Multy Analyzer")
- - Steel: 350
- - Plasteel: 150
+ - Metal: 125
+ - Steel: 125
+ - Plasteel: 50
  - Uranium / Gold : 25
  - Components: 4 / 1
+ - Mechanoid Power Cell (when installed)
  - Power consumption: 500 W
 
+Needs ~11 Researches from scratch Crash Landing
+
 &lt;b&gt;Compatibility&lt;/b&gt;
+ - Mechanoid Power Source (Auto Balance)
+ - CE Ready (Xeno Hot Cell)
  - [XND] Turret Extensions
- 
-Highend turret. Lategame content.
+
 &lt;i&gt;Rips apart everything which comes close to your fortress.&lt;/i&gt;
 
+I'm still playing around with the exact settings. Let me know if its fine (Beta)
+
 &lt;b&gt;Credits&lt;/b&gt;
-Mental Support * by Kikohi
+Sound effects * by wcoltd
+Brother in arms * Kikohi
 German Translation * by Endgegner
 </description>
 </ModMetaData>

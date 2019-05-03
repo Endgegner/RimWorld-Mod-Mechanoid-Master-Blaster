@@ -3,7 +3,7 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>MPC_MechanoidBlasterTurret</defName>
-		<label>Mechanoid Blaster Turret</label>
+		<label>Mechanoid Blaster</label>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Security/MechanoidTurretBase</texPath>
@@ -25,7 +25,7 @@
 			<WorkToBuild>4400</WorkToBuild>
 			<Mass>240</Mass>
 			<Beauty>-20</Beauty>
-			<ShootingAccuracyTurret>0.92</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.91</ShootingAccuracyTurret>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps Inherit="False">
@@ -42,7 +42,7 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<description>A turret with a mechanoid blaster on top that automtically fires at nearby and distant enemies. Has a chance to explode when damaged.</description>
+		<description>A turret with a mechanoid blaster on top that automtically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.</description>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.85</fillPercent>
 		<hasTooltip>true</hasTooltip>
@@ -54,7 +54,7 @@
 		</stuffCategories>
 		<costStuffCount>125</costStuffCount>
 		<costList>
-			<Steel>350</Steel>
+			<Steel>125</Steel>
 			<Plasteel>50</Plasteel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -86,7 +86,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_MechanoidBlasterTurret</defName>
-		<label>Powered Nitro Round</label>
+		<label>Powered Nitro Laser</label>
 		<graphicData>
 			<texPath>Things/Projectile/ChargeLanceShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +95,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>35</damageAmountBase>
+			<damageAmountBase>15</damageAmountBase>
 			<speed>250</speed>
 			<explosionRadius>0.5</explosionRadius>
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
@@ -107,9 +107,9 @@
 
 	<ThingDef ParentName="BaseHumanGun">
 		<defName>Gun_MechanoidBlasterTurret</defName>
-		<label>Mechanoid Blaster Turret</label>
+		<label>Mechanoid Blaster</label>
 		<menuHidden>true</menuHidden>
-		<description>Evolved defense turret, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms, on planets of importance. Has a Blaster Cannon with a big BOOM on hit attached to it. Long range, explosive shells and a crazy central weapon system mounted on an auto turret.</description>
+		<description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</description>
 		<graphicData>
 			<texPath>Things/Building/Security/MechanoidTurretBase</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -119,9 +119,9 @@
 		<destroyOnDrop>true</destroyOnDrop>
 		<statBases>
 			<AccuracyTouch>0.95</AccuracyTouch>
-			<AccuracyShort>0.92</AccuracyShort>
-			<AccuracyMedium>0.87</AccuracyMedium>
-			<AccuracyLong>0.85</AccuracyLong>
+			<AccuracyShort>0.91</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.81</AccuracyLong>
 			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>40</Mass>
@@ -138,7 +138,7 @@
 				<warmupTime>0.5</warmupTime>
 				<range>52.4</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<burstShotCount>20</burstShotCount>
+				<burstShotCount>24</burstShotCount>
 				<soundCast>MechanoidPoweredNitroRound</soundCast> <!-- Shot_ChargeBlaster InfernoCannon_Fire Shot_ChargeRifle ChargeLance_Fire -->
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>

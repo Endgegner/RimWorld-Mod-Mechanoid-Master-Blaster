@@ -4,7 +4,7 @@
 	<!-- Same Research -->
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/ResearchProjectDef[defName="MPC_MechanoidPowerSource"]</xpath>
-		<success>Normal</success>
+		<success>Always</success>
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="MPC_MechanoidBlasterTurret"]/researchPrerequisites</xpath>
 			<value>
@@ -19,7 +19,7 @@
 		<li>Mechanoid Power</li>
 	</mods>
 	<match Class="PatchOperationSequence">
-		<success>Normal</success>
+		<success>Always</success>
 		<operations>
 			<!-- AI Persona Core 2 Power Ship -->
 			<li Class="PatchOperationAdd">
