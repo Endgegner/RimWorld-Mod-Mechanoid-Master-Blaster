@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ResearchProjectDef>
+		<defName>MPC_MechanoidBlaster</defName>
+		<label>Mechanoid power systems</label>
+		<description>Allows the construction of an impactful and precise turret for long range shots with Mechanoid technology.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MultiAnalyzer</li>
+		</prerequisites>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>12</researchViewX>
+		<researchViewY>6.5</researchViewY>
+	</ResearchProjectDef>
+</Defs>

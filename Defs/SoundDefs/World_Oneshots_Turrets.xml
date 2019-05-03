@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<SoundDef>
+		<defName>MechanoidPoweredNitroRound</defName>
+		<context>MapOnly</context> 
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>MechanoidTurret/MechanoidLaserCannon</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>50</min>
+					<max>70</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8304348</min>
+					<max>1.015978</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>
