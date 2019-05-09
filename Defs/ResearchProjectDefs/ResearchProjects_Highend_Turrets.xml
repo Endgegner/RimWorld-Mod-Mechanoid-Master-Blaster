@@ -5,13 +5,13 @@
 		<defName>MPC_MechanoidBlaster</defName>
 		<label>Mechanoid power systems</label>
 		<description>Allows the construction of an impactful and precise turret for long range shots with Mechanoid technology.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Industrial</techLevel>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>MultiAnalyzer</li>
 		</prerequisites>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>12</researchViewX>
-		<researchViewY>6.5</researchViewY>
+		<researchViewX>14</researchViewX>
+		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 </Defs>

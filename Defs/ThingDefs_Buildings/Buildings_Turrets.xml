@@ -2,11 +2,11 @@
 
 <Defs>
 	<ThingDef ParentName="BuildingBase">
-		<defName>MPC_MechanoidBlasterTurret</defName>
-		<label>Mechanoid Blaster</label>
+		<defName>MPC_MechanoidLaserTurret</defName>
+		<label>Mechanoid Laser</label>
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidLoseTurretBase</texPath>
+			<texPath>Things/Building/Security/MechanoidTurretBase</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
@@ -16,21 +16,21 @@
 		</graphicData>
 		<castEdgeShadows>true</castEdgeShadows>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<uiIconPath>Things/Building/Security/MechanoidTurretGun_Ico</uiIconPath>
+		<uiIconPath>Things/Building/Security/MechanoidLaserGun_Ico</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>70</pathCost>
 		<statBases>
-			<MaxHitPoints>1500</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Flammability>0.35</Flammability>
-			<WorkToBuild>4400</WorkToBuild>
+			<WorkToBuild>4800</WorkToBuild>
 			<Mass>240</Mass>
 			<Beauty>-20</Beauty>
-			<ShootingAccuracyTurret>0.91</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps Inherit="False">
 			<li Class="CompProperties_Explosive">
-				<explosiveRadius>7</explosiveRadius>
+				<explosiveRadius>8</explosiveRadius>
 				<explosiveDamageType>EMP</explosiveDamageType>
 				<chanceNeverExplodeFromDamage>0.25</chanceNeverExplodeFromDamage>
 			</li>
@@ -41,11 +41,8 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_CameraShaker">
-			<mag>0</mag>
-			</li>
 		</comps>
-		<description>A turret with a mechanoid blaster on top that automtically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.</description>
+		<description>A turret with a mechanoid laser gun on top that automtically fires at nearby and distant enemies. Has a chance to explode in an EMP impulse when damaged.</description>
 		<passability>PassThroughOnly</passability>
 		<fillPercent>0.85</fillPercent>
 		<hasTooltip>true</hasTooltip>
@@ -55,15 +52,15 @@
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
-		<costStuffCount>150</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<costList>
-			<Plasteel>300</Plasteel>
+			<Plasteel>150</Plasteel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
-			<Uranium>25</Uranium>
-			<Gold>75</Gold>
+			<Uranium>75</Uranium>
+			<Gold>25</Gold>
 		</costList>
-		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
 		<designationHotKey>Misc5</designationHotKey>
@@ -72,11 +69,10 @@
 		<rotatable>true</rotatable>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretGunDef>Gun_MechanoidBlasterTurret</turretGunDef>
+			<turretGunDef>Gun_MechanoidLaserTurret</turretGunDef>
 			<turretBurstCooldownTime>7.2</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Security/MechanoidTurretGun</turretTopGraphicPath>
-			<!-- <turretTopDrawSize>2.7</turretTopDrawSize> -->
-			<turretTopOffset>(0, 0.2)</turretTopOffset>
+			<turretTopGraphicPath>Things/Building/Security/MechanoidLaserGun</turretTopGraphicPath>
+			<turretTopOffset>(0, 0.05)</turretTopOffset>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_TurretTop</li>
@@ -87,43 +83,47 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_MechanoidBlasterTurret</defName>
-		<label>Laser salvo</label>
+		<defName>Bullet_MechanoidLaserTurret</defName>
+		<label>Powered nitro laser</label>
 		<graphicData>
-			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<texPath>Things/Projectile/LaserPulse</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Flame</damageDef>
-			<damageAmountBase>17</damageAmountBase>
-			<speed>250</speed>
-			<explosionRadius>0.5</explosionRadius>
+			<damageDef>Frostbite</damageDef> <!-- Bomb Stun -->
+			<damageAmountBase>27</damageAmountBase>
+			<speed>150</speed>
+			<explosionRadius>1.1</explosionRadius>
+			<!-- <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+			<explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge> -->
 			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
 			<preExplosionSpawnChance>0.07</preExplosionSpawnChance>
+			<explosionDelay>2</explosionDelay>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
-			<stoppingPower>0.3</stoppingPower>
+			<stoppingPower>0.4</stoppingPower>
+			<soundExplode>Interact_Ignite</soundExplode>
 		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseHumanGun">
-		<defName>Gun_MechanoidBlasterTurret</defName>
-		<label>Mechanoid Blaster</label>
+		<defName>Gun_MechanoidLaserTurret</defName>
+		<label>Mechanoid Laser</label>
 		<menuHidden>true</menuHidden>
-		<description>Evolved defense building, primarily made for stationary warfare against xenomorphic insectoids and mechanoid swarms - on planets of importance. Has 4 Blaster Cannons with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret of a sturdy nature. Relies on Mechanoid Technology.</description>
+		<description>Evolved defense building, primarily made for stationary warfare against heavy ordinance - on planets of importance. Has a Laser Cannon with a long range target acquisition attached to it. The central weapon system is mounted on an auto turret. Relies on Mechanoid Technology.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/MechanoidLoseTurretBase</texPath>
+			<texPath>Things/Building/Security/MechanoidTurretBase</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<statBases>
-			<AccuracyTouch>0.95</AccuracyTouch>
-			<AccuracyShort>0.91</AccuracyShort>
-			<AccuracyMedium>0.85</AccuracyMedium>
-			<AccuracyLong>0.81</AccuracyLong>
+			<AccuracyTouch>0.97</AccuracyTouch>
+			<AccuracyShort>0.94</AccuracyShort>
+			<AccuracyMedium>0.91</AccuracyMedium>
+			<AccuracyLong>0.89</AccuracyLong>
 			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>40</Mass>
@@ -136,15 +136,16 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_ChargeLance</defaultProjectile>
-				<warmupTime>0.5</warmupTime>
+				<defaultProjectile>Bullet_MechanoidLaserTurret</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
 				<range>52.4</range>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<burstShotCount>24</burstShotCount>
-				<soundCast>MechanoidPoweredNitroRound</soundCast> <!-- Shot_ChargeBlaster InfernoCannon_Fire Shot_ChargeRifle ChargeLance_Fire -->
-				<soundCastTail>GunTail_Medium</soundCastTail>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<burstShotCount>7</burstShotCount>
+				<soundCast>MechanoidLaserPulse</soundCast> <!-- Shot_ChargeBlaster InfernoCannon_Fire Shot_ChargeRifle ChargeLance_Fire -->
+				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<minRange>1.5</minRange>
+				<forcedMissRadius>0.05</forcedMissRadius>
 				<!-- <requireLineOfSight>false</requireLineOfSight> -->
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 			</li>

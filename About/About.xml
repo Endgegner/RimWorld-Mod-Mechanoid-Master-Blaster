@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Mechanoid Master Blaster</name>
+	<name>Mechanoid Blaster</name>
 	<author>Trunken</author>
 	<url></url>
   <supportedVersions>
     <li>1.0</li>
   </supportedVersions>
-	<description>Adds a new full defense security building to the game:
+	<description>Adds a selection of full defense security buildings to the game:
 
 &lt;b&gt;&lt;color=#01fc61&gt;The Mechanoid Turret&lt;/color&gt;&lt;/b&gt;
 
 &lt;b&gt;Properties&lt;/b&gt;
- - Supererior precision
+ - Supererior Targeting
  - Laser Pew Pew
  - Slow reload
  - Plated
@@ -21,11 +21,10 @@
 &lt;b&gt;Requirements&lt;/b&gt;
  - Technology "Mechanoid power systems"
    (last dependency: "Multy Analyzer")
- - Metal: 125
- - Steel: 125
- - Plasteel: 50
- - Uranium / Gold : 25
- - Components: 4 / 1
+ - Metal: 150-300
+ - Plasteel: 150-300
+ - Uranium / Gold : 25-75
+ - Components: 4-8 / 1
  - Mechanoid Power Cell (when installed)
  - Power consumption: 500 W
 
@@ -35,13 +34,28 @@ Needs ~11 Researches from scratch Crash Landing
  - Mechanoid Power Source (Auto Balance)
  - CE Ready (Xeno Hot Cell)
  - [XND] Turret Extensions
+ - Savegames
 
 &lt;i&gt;Rips apart everything which comes close to your fortress.&lt;/i&gt;
 
-I'm still playing around with the exact settings. Let me know if its fine (Beta)
+&lt;b&gt;Load order&lt;/b&gt;
+1. More Crashed Ship Parts
+2. Mechanoid Power Source
+3. Mechanoid Master Blaster
+
+&lt;color=#FFC300&gt;&lt;b&gt;Beta v1.7&lt;/b&gt;&lt;/color&gt;
+
+I'm still playing around with the exact settings. Let me know if its fine
+
+**Update: Another One
+**Update: And Another One
+**Update: And Another One
+
+Preview + Details on SteamWorkshop
 
 &lt;b&gt;Credits&lt;/b&gt;
-Sound effects * by wcoltd
+Assemblies DRF by * dninemfive
+Sound effects * by wcoltd &amp; robinhood
 Brother in arms * Kikohi
 German Translation * by Endgegner
 </description>

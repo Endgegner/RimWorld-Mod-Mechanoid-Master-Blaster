@@ -1,16 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
+  <!-- Salvo Blaster -->
   <MPC_MechanoidBlasterTurret.label>Mechanoid Blaster</MPC_MechanoidBlasterTurret.label>
-  <MPC_MechanoidBlasterTurret.description>Ein Geschützturm, der automaitsch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret.description>
+  <MPC_MechanoidBlasterTurret.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret.description>
   <MPC_MechanoidBlasterTurret_Blueprint.label>Mechanoid Blaster (Entwurf)</MPC_MechanoidBlasterTurret_Blueprint.label>
   <MPC_MechanoidBlasterTurret_Blueprint_Install.label>Mechanoid Blaster (Entwurf)</MPC_MechanoidBlasterTurret_Blueprint_Install.label>
   <MPC_MechanoidBlasterTurret_Frame.label>Mechanoid Blaster (wird gebaut)</MPC_MechanoidBlasterTurret_Frame.label>
-  <MPC_MechanoidBlasterTurret_Frame.description>Ein Geschützturm, der automaitsch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret_Frame.description>
+  <MPC_MechanoidBlasterTurret_Frame.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidBlasterTurret_Frame.description>
 
-  <Bullet_MechanoidBlasterTurret.label>Nitro Laser</Bullet_MechanoidBlasterTurret.label>
+  <Bullet_MechanoidBlasterTurret.label>Laser Salve</Bullet_MechanoidBlasterTurret.label>
 
   <Gun_MechanoidBlasterTurret.label>Mechanoid Blaster</Gun_MechanoidBlasterTurret.label>
   <Gun_MechanoidBlasterTurret.description>Ein sich auffaltendes Verteidigungssystem, welches primär für die stationäre Kriegskunst entwickelt wurde, um xenomporhe Insektoiden sowie Mechanoidschwärme zu bekämpfen. Man findet sie aufgrund der aufwendigen Herstellungskosten eher auf Planeten höherer Wichtigkeit wieder. Es wurden gleich 4 Blaster Kanonen mit großer Reichweite daran angebracht. Das zentrale Waffensystem befindet sich wohl geschützt in einem gepanzerten Bereich innerhalb des Geschützturmes. Beruht auf gefährlicher Mechanoid Technologie.</Gun_MechanoidBlasterTurret.description>
+  
+  <!-- Nitro Laser -->
+  <MPC_MechanoidLaserTurret.label>Mechanoid Laser</MPC_MechanoidLaserTurret.label>
+  <MPC_MechanoidLaserTurret.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidLaserTurret.description>
+  <MPC_MechanoidLaserTurret_Blueprint.label>Mechanoid Laser (Entwurf)</MPC_MechanoidLaserTurret_Blueprint.label>
+  <MPC_MechanoidLaserTurret_Blueprint_Install.label>Mechanoid Laser (Entwurf)</MPC_MechanoidLaserTurret_Blueprint_Install.label>
+  <MPC_MechanoidLaserTurret_Frame.label>Mechanoid Laser (wird gebaut)</MPC_MechanoidLaserTurret_Frame.label>
+  <MPC_MechanoidLaserTurret_Frame.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidLaserTurret_Frame.description>
 
+  <Bullet_MechanoidLaserTurret.label>Nitro Laser</Bullet_MechanoidLaserTurret.label>
+
+  <Gun_MechanoidLaserTurret.label>Mechanoid Laser</Gun_MechanoidLaserTurret.label>
+  <Gun_MechanoidLaserTurret.description>Ein sich auffaltendes Verteidigungssystem, welches primär für die stationäre Kriegskunst entwickelt wurde, doch vor allem für schweren Besuch. Man findet sie aufgrund der aufwendigen Herstellungskosten eher auf Planeten höherer Wichtigkeit wieder. Es wurde eine mächtige Laser Kanone mit großer Reichweite daran angebracht. Das zentrale Waffensystem befindet sich wohl geschützt in einem gepanzerten Bereich innerhalb des Geschützturmes. Beruht auf gefährlicher Mechanoid Technologie.</Gun_MechanoidLaserTurret.description>
+
+  <!-- Shockwave Coil -->
+  <MPC_MechanoidShockwaveTurret.label>Mechanoid Schocker</MPC_MechanoidShockwaveTurret.label>
+  <MPC_MechanoidShockwaveTurret.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidShockwaveTurret.description>
+  <MPC_MechanoidShockwaveTurret_Blueprint.label>Mechanoid Schocker (Entwurf)</MPC_MechanoidShockwaveTurret_Blueprint.label>
+  <MPC_MechanoidShockwaveTurret_Blueprint_Install.label>Mechanoid Schocker (Entwurf)</MPC_MechanoidShockwaveTurret_Blueprint_Install.label>
+  <MPC_MechanoidShockwaveTurret_Frame.label>Mechanoid Schocker (wird gebaut)</MPC_MechanoidShockwaveTurret_Frame.label>
+  <MPC_MechanoidShockwaveTurret_Frame.description>Ein Geschützturm, der automatisch auf nahe feindliche Ziele feuert. Es besteht die Gefahr, daß er unter Beschädigung in einem EMP Impuls detoniert.</MPC_MechanoidShockwaveTurret_Frame.description>
+
+  <Bullet_MechanoidShockwaveTurret.label>Psi Schockwelle</Bullet_MechanoidShockwaveTurret.label>
+
+  <Gun_MechanoidShockwaveTurret.label>Mechanoid Schocker</Gun_MechanoidShockwaveTurret.label>
+  <Gun_MechanoidShockwaveTurret.description>Ein sich auffaltendes Verteidigungssystem, welches primär für die stationäre Kriegskunst entwickelt wurde, doch vor allem für schweren Besuch. Man findet sie aufgrund der aufwendigen Herstellungskosten eher auf Planeten höherer Wichtigkeit wieder. Es wurde ein Schockwellengenerator mit großer Reichweite daran angebracht. Das zentrale Waffensystem befindet sich wohl geschützt in einem gepanzerten Bereich innerhalb des Geschützturmes. Beruht auf gefährlicher Mechanoid Technologie.</Gun_MechanoidShockwaveTurret.description>
+  
 </LanguageData>
